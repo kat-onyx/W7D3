@@ -8,7 +8,8 @@ const mStP = (state) => ({
 });
 
 const mDtP = dispatch => ({
-    requestAllPokemon: () => dispatch(requestAllPokemon())
+    requestAllPokemon: () => dispatch(requestAllPokemon()),
+    requestPokemon: () => dispatch(requestPokemon())
 })
 
 
